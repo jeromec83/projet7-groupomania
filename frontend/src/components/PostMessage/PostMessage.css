@@ -1,0 +1,76 @@
+.post-message {
+  border: 1px solid #000000;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+.post-message-title {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.input-title {
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+.input-file {
+  margin-right: 20px;
+  border: 1px solid #000000;
+  height: 54px;
+  border-radius: 4px;
+}
+
+.picture-name {
+  padding: 5px;
+  text-align: center;
+  word-break: break-all;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+}
+
+.input-content {
+  padding-right: 10px;
+}
+
+.button-publish {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 100px;
+}
+
+@media screen and (max-width: 1259px) {
+  .post-message {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1035px) {
+  .post-message {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 428px) {
+  .post-message {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 228px) {
+  .post-message {
+    width: 100%;
+  }
+}

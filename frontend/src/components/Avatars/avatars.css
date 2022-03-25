@@ -1,0 +1,14 @@
+.avatar-choice-container {
+  font-size: 14px;
+
+  line-height: 25px;
+  margin-bottom: 0px;
+  padding: 15px 15px 0px 15px;
+  height: 400px;
+  overflow-y: scroll;
+  text-align: justify;
+}
+
+.avatar-button {
+  margin: 10px;
+}

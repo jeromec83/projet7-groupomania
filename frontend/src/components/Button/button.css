@@ -1,0 +1,25 @@
+.button {
+  border: inherit;
+  border-radius: 0.5em;
+  box-shadow: 0.2em 0.2em 0.2em 0.2em #3f3838;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #222831;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e8;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: 0.2em 0.2em 0.2em 0.2em #b6a9a9;
+
+  filter: brightness(130%);
+}
+
+.icon-button {
+  margin-right: 5px;
+}

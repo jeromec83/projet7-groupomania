@@ -1,0 +1,42 @@
+.modif-pop-up-container {
+  padding: 30px;
+}
+
+.modif-pop-up-inputs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modif-pop-up-input-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.modif-pop-up-picture {
+  margin-top: 10px;
+}
+
+.modif-pop-up-input-file {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modif-pop-up-icon-picture {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.modif-pop-up-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.button-save-modif {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,71 @@
+.grpm-header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid 3px #dcdcde;
+  justify-content: space-between;
+  background-color: #30475c;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.grpm-logo_1 {
+  margin-left: 20px;
+  height: auto;
+  width: 13em;
+}
+.img-logo-1 {
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+}
+
+.grpm-buttons-log-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grpm-buttons-log-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grpm-buttons-log-3 {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .grpm-header {
+    flex-direction: column;
+    align-items: center;
+    height: 145px;
+    justify-content: unset;
+  }
+  .grpm-logo_1 {
+    margin-left: 0;
+    height: auto;
+    width: 10em;
+  }
+  .grpm-buttons-log-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .grpm-buttons-log-2 {
+    display: none;
+  }
+  .grpm-buttons-log-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .icon-button {
+    margin-right: 0;
+  }
+}

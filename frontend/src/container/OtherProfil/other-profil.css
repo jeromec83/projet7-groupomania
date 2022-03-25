@@ -1,0 +1,85 @@
+.users-profil-big-container {
+  padding: 10px;
+  border: 1px solid #dcdcde;
+  margin: 10px 0 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.users-profil-infos {
+  margin: 20px 0 15px 20px;
+}
+
+.users-avatar {
+  display: flex;
+  align-items: center;
+}
+.other-user-pseudo {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.other-user-bio {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.users-buttons-container {
+  display: flex;
+ 
+  margin: 0 15px 15px 15px;
+}
+
+.users-button-be-admin {
+  margin-right: 15px;
+}
+
+.message-other-user-card-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 550px;
+}
+
+.message-other-user-card {
+  padding: 10px;
+  border: 1px solid #dcdcde;
+  margin: 10px 0;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #dcdcde;
+}
+
+@media screen and (max-width: 1700px) {
+  .message-other-user-card-container {
+    margin: 0 200px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .message-other-user-card-container {
+    margin: 0 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .message-other-user-card-container {
+    margin: 0 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .message-other-user-card-container {
+    margin: 0 50px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .users-profil-big-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .message-other-user-card-container {
+    margin: auto;
+  }
+}

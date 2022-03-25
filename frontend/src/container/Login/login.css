@@ -1,0 +1,48 @@
+.login-container {
+  border: 1px solid #dcdcde;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 20%;
+  padding: 10px;
+}
+
+.login-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.login-input-email {
+  margin-top: 20px;
+}
+
+.login-input-password {
+  margin-top: 15px;
+}
+
+.login-button {
+  margin: 20px 0 20px;
+}
+
+@media screen and (max-width: 1259px) {
+  .login-container {
+    margin: 15px 0;
+  }
+}
+@media screen and (max-width: 1035px) {
+  .login-container {
+    margin: 15px 0;
+  }
+}
+@media screen and (max-width: 428px) {
+  .login-container {
+    margin: 15px 0;
+  }
+}
+@media screen and (max-width: 228px) {
+  .login-container {
+    margin: 15px 0;
+  }
+}

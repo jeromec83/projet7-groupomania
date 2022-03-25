@@ -1,0 +1,17 @@
+.confirm-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirm-buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.confirm-button-yes {
+  margin-right: 10px;
+}

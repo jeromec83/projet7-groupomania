@@ -1,0 +1,21 @@
+.comment-icon {
+  margin-bottom: 5px;
+}
+
+.accordions {
+  margin-bottom: 10px;
+}
+
+.comment-input-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment-input {
+  margin-bottom: 5px;
+}
+
+.comment-button {
+  margin-bottom: 10px;
+}

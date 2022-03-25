@@ -1,0 +1,107 @@
+.post-message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.search-user-container {
+  padding: 20px 30px 30px 30px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid black;
+}
+
+.message-card-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 550px;
+}
+
+.message-card {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px 0;
+  background-color: white;
+}
+
+.avatar-name {
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.message-is-admin {
+  font-style: italic;
+}
+
+.message-date {
+  padding-bottom: 5px;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dcdcde;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.message-title {
+  font-weight: bold;
+  word-break: break-all;
+}
+
+.picture-container {
+  display: flex;
+
+  justify-content: center;
+  padding: 15px;
+}
+
+.message-content {
+  word-break: break-all;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1700px) {
+  .message-card-container {
+    margin: 0 200px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .message-card-container {
+    margin: 0 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .message-card-container {
+    margin: 0 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .post-message-container {
+    padding: 0;
+  }
+  .message-card-container {
+    margin: 0 50px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .search-user-container {
+    padding: 0;
+  }
+  .post-message-container {
+    padding: 0;
+  }
+  .message-card-container {
+    margin: auto;
+  }
+}
