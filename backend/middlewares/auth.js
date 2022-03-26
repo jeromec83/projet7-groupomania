@@ -13,7 +13,7 @@ module.exports = (req, res, next) => {
   } catch {
     // invalid token
     res.status(401).json({
-      error: "vous ne passerez pas !",
+      error: "erreur!",
     });
   }
 };
